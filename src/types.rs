@@ -12,4 +12,8 @@ pub fn run() {
     println!("Max i32: {}", std::i32::MAX);
     println!("Max i64: {}", std::i64::MAX);
     let is_active = true;
+
+    let face = '\u{1F600}';
+
+    println!("{:?}", (x, y, z, is_active, face));
 }
